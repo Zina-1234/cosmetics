@@ -1,0 +1,91 @@
+brand,product_name,product_type,price,rating,restricted_ingredient_count,cmr_count
+GLAMGLOW,The Ultimate Glow Set,Face Mask,169,0.0,9,1
+OMOROVICZA,Silver Skin Savior Salicylic/Glycolic Acid Treatment,Treatment,125,5.0,5,1
+OMOROVICZA,Midnight Radiance Mask,Face Mask,125,5.0,8,1
+PERRICONE MD,High Potency Classics: Firming Evening Repair,Treatment,99,4.4,6,1
+ESTÉE LAUDER,Enlighten Dark Spot Correcting Night Serum,Treatment,98,4.0,2,1
+DRUNK ELEPHANT,The Littles™,Moisturizer,90,4.4,8,1
+DRUNK ELEPHANT,T.L.C. Framboos™ Glycolic Night Serum,Cleanser,90,4.3,2,1
+DR. DENNIS GROSS SKINCARE,Alpha Beta® Universal Daily Peel,Treatment,88,4.5,6,1
+DR. DENNIS GROSS SKINCARE,Ferulic Acid + Retinol Brightening Solution,Treatment,88,4.1,5,1
+PETER THOMAS ROTH,PROfessional Strength 40% Triple Acid Peel,Treatment,88,4.0,2,1
+DR. DENNIS GROSS SKINCARE,Alpha Beta® Extra Strength Daily Peel,Treatment,88,4.5,6,1
+ALGENIST,GENIUS Ultimate Anti-Aging Bi-Phase Peel,Treatment,85,4.6,3,1
+DRUNK ELEPHANT,T.L.C. Sukari Babyfacial™,Cleanser,80,4.5,3,1
+CLINIQUE,Even Better Clinical Dark Spot Corrector & Optimizer,Treatment,80,3.1,2,1
+SUNDAY RILEY,U.F.O. Ultra-Clarifying Face Oil,Moisturizer,80,4.2,1,1
+SK-II,Facial Treatment Clear Lotion Toner,Cleanser,76,4.1,1,1
+LANCER,The Method: Polish Blemish Control,Cleanser,75,4.7,3,1
+DR. BRANDT SKINCARE,MAGNETIGHT™ Age-Defier Mask Bundle,Face Mask,75,4.0,6,1
+PHILOSOPHY,The Microdelivery Resurfacing Peel,Treatment,72,4.7,2,1
+DR. DENNIS GROSS SKINCARE,Ferulic + Retinol Triple Correction Eye Serum,Eye Cream,69,3.8,5,1
+PHILOSOPHY,Uplifting Miracle Worker Eye Cream,Eye Cream,69,3.1,2,1
+ALGENIST,Algae Brightening Mask,Face Mask,62,0.0,2,1
+CLINIQUE,Clinique Smart Custom-Repair Serum,Treatment,60,4.0,2,1
+INDIE LEE,Clearing Mask,Face Mask,60,4.4,4,1
+ORIGINS,Dr. Andrew Weil For Origins™ Mega-Bright Dark Spot Correcting Serum,Treatment,59,3.7,6,1
+ORIGINS,Dr. Andrew Weil For Origins™ Mega-Bright Dark Spot Correcting Night Mask,Face Mask,59,3.8,5,1
+GLAMGLOW,FLASHMUD™ Brightening Treatment,Cleanser,59,4.1,10,1
+GLAMGLOW,SUPERMUD® Activated Charcoal Treatment,Treatment,59,4.2,6,1
+DR. BRANDT SKINCARE,PoreDermabrasion™ Pore Perfecting Exfoliator,Cleanser,58,4.2,3,1
+KORRES,"Black Pine 3D Sculpting, Firming & Lifting Eye Cream",Eye Cream,56,4.0,2,1
+ORIGINS,Dr. Andrew Weil For Origins™ Mega-Bright SPF 30 Skin Tone Correcting Oil-Free Moisturizer,Moisturizer,56,4.1,9,1
+CLINIQUE,Sculptwear Lift and Contour Serum for Face and Neck,Treatment,56,3.8,1,1
+LANCER,The Method: Cleanse,Cleanser,55,4.4,2,1
+ALGENIST,PERFECT Clarifying Pore Corrector Mask,Face Mask,55,4.5,3,1
+KATE SOMERVILLE,Kate's Mini Must Haves,Cleanser,55,0.0,2,1
+PETER THOMAS ROTH,AHA/BHA Acne Clearing Gel,Treatment,54,0.0,3,1
+KIEHL'S SINCE 1851,Clearly Corrective™ Dark Spot Solution,Treatment,50,3.5,4,1
+CLINIQUE,Even Better Skin Tone Correcting Moisturizer Broad Spectrum SPF 20,Moisturizer,50,4.1,1,1
+LANCÔME,Hydra Zen Anti-Stress Gel Moisturizer,Moisturizer,48,4.6,5,1
+PERRICONE MD,No:Rinse Intensive Pore Minimizing Toner,Cleanser,45,4.3,4,1
+BLITHE,Energy Yellow Citrus & Honey Splash Mask,Face Mask,45,4.2,1,1
+BLITHE,Soothing & Healing Green Tea Splash Mask,Face Mask,45,4.6,1,1
+PETER THOMAS ROTH,Un-Wrinkle Peel Pads,Treatment,45,4.6,4,1
+DR. JART+,Dermaclear™ Micro Milk Peel,Treatment,42,4.4,1,1
+DR. BRANDT SKINCARE,pores no more® Vacuum Cleaner® Pore Purifying Mask,Face Mask,42,4.1,3,1
+ORIGINS,Original Skin™ Renewal Serum with Willowherb,Treatment,41,4.4,4,1
+FIRST AID BEAUTY,Facial Radiance® Intensive Peel,Treatment,40,4.6,4,1
+MOON JUICE,Beauty Shroom™ Exfoliating Acid Potion,Treatment,39,4.9,2,1
+MURAD,AHA/BHA Exfoliating Cleanser,Cleanser,39,4.6,2,1
+TARTE,Knockout Tingling Treatment,Cleanser,39,4.5,1,1
+LANCÔME,Énergie de Vie The Illuminating & Anti-Fatigue Cooling Eye Gel,Eye Cream,39,3.5,5,1
+ALGENIST,Multi-Perfecting Detoxifying Exfoliator,Cleanser,38,4.6,1,1
+MURAD,InstaMatte™ Oil-Control Mask,Face Mask,38,4.3,2,1
+FARMACY,Dew It All Total Eye Cream with Echinacea GreenEnvy™,Eye Cream,38,4.1,3,1
+PETER THOMAS ROTH,Anti-Aging Cleansing Gel,Cleanser,38,4.4,3,1
+PETER THOMAS ROTH,Irish Moor Mud Purifying Cleanser Gel,Cleanser,38,4.3,2,1
+JACK BLACK,Power Peel Multi-Acid Resurfacing Pads,Treatment,38,4.6,2,1
+FIRST AID BEAUTY,Ultra Repair® Hydrating Serum,Moisturizer,36,4.2,2,1
+MILK MAKEUP,Watermelon Brightening Serum,Treatment,36,4.1,2,1
+OLEHENRIKSEN,Cold Plunge Pore Mask,Face Mask,36,4.6,2,1
+KATE SOMERVILLE,Detox Daily Cleanser,Cleanser,36,4.3,3,1
+LANCÔME,Rose Jelly Mask,Face Mask,35,4.1,6,1
+ORIGINS,Original Skin™ Matte Moisturizer with Willowherb,Moisturizer,35,4.5,7,1
+OLEHENRIKSEN,Counter Balance™ Oil Control Hydrator,Moisturizer,34,4.3,3,1
+PETER THOMAS ROTH,Oily Problem Skin Instant Mineral Powder SPF 30,Sun Protect,30,3.7,1,1
+KIEHL'S SINCE 1851,Ultra Facial Cream SPF 30,Moisturizer,29,4.2,4,1
+KIEHL'S SINCE 1851,Calendula Deep Clean Foaming Face Wash,Cleanser,29,4.7,4,1
+ORIGINS,GinZing™ Energy-Boosting Gel Moisturizer,Moisturizer,29,4.4,2,1
+CLINIQUE,Fresh Pressed Renewing Powder Cleanser with Pure Vitamin C,Cleanser,29,4.9,1,1
+ORIGINS,Out of Trouble™ 10 Minute Mask to Rescue Problem Skin,Face Mask,28,4.4,3,1
+KORRES,Wild Rose Exfoliating Cleanser,Cleanser,28,4.4,6,1
+KIEHL'S SINCE 1851,Herbal-Infused Micellar Cleansing Water,Cleanser,28,3.7000000000000006,1,1
+IT COSMETICS,Bye Bye Breakout™ Full-Coverage Concealer,Treatment,28,3.9,2,1
+ORIGINS,Mini Mask Musts,Face Mask,28,4.1,13,1
+DRUNK ELEPHANT,NightBright™ Duo,Treatment,28,4.2,2,1
+CLINIQUE,Fresh Pressed 7-day System with Pure Vitamin C,Cleanser,27,4.1,2,2
+KATE SOMERVILLE,EradiKate™ Acne Treatment,Treatment,26,4.3,2,1
+OLEHENRIKSEN,Balancing Force™ Oil Control Toner,Cleanser,26,4.4,3,1
+KIEHL'S SINCE 1851,Cucumber Herbal Conditioning Cleanser,Cleanser,24,4.6,3,1
+KATE SOMERVILLE,ExfoliKate® Intensive Exfoliating Treatment,Cleanser,24,4.4,8,1
+ORIGINS,Zero Oil™ Deep Pore Cleanser,Cleanser,23,4.2,3,1
+ORIGINS,Zero Oil™ Pore Purifying Toner,Cleanser,23,4.3,7,1
+KIEHL'S SINCE 1851,Rare Earth Deep Pore Daily Cleanser,Cleanser,23,4.6,3,1
+CLINIQUE,Exfoliating Scrub,Cleanser,22,4.7,2,1
+CLINIQUE,Pep-Start 2-in-1 Exfoliating Cleanser,Cleanser,19,4.5,2,1
+CLINIQUE,Fresh Pressed Daily Booster with Pure Vitamin C 10%,Treatment,19,4.0,1,1
+CLINIQUE,Clarifying Lotion 4,Cleanser,16,4.4,2,1
+CLINIQUE,Clarifying Lotion 3,Cleanser,16,4.4,2,1
+CLINIQUE,Clarifying Lotion 1,Cleanser,16,4.5,2,1
+DR. JART+,Dermask Micro Jet Clearing Solution™,Face Mask,9,4.4,1,1

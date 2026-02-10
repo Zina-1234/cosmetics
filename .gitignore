@@ -1,0 +1,24 @@
+# .gitignore
+
+# ── Secrets ──
+env/
+.env
+
+# ── Données brutes (volumineuses, pas sur Git) ──
+data/raw/
+data/processed/
+
+# ── Logs ──
+logs/
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ── IDE ──
+.idea/
+.vscode/
+*.ipynb_checkpoints

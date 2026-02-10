@@ -1,0 +1,101 @@
+product_id,product_name,brand_name,product_type,price_usd,rating,restricted_ingredient_count,cmr_count
+P500155,ExfoliKate All Over Glow Kit,Kate Somerville,Skincare,115.0,5.0,18,2
+P481339,Alpha Beta Daily Essentials - Extra Strength,Dr. Dennis Gross Skincare,Skincare,92.0,4.4615,10,2
+P481975,Alpha Beta Daily Essentials - Universal,Dr. Dennis Gross Skincare,Skincare,92.0,4.6296,10,2
+P481347,Clear Skin Kit Acne Treatment Kit,Paula's Choice,Skincare,75.0,3.4375,5,2
+P481350,Complexion Clarity Kit,Paula's Choice,Skincare,64.0,4.4444,5,2
+P501474,The Youth Vault: 13-Piece Vegan Skincare + Apparel Set,Youth To The People,Skincare,340.0,4.875,21,1
+P481833,Concentrated Ginseng Renewing Cream,Sulwhasoo,Skincare,260.0,4.4766,8,1
+P429043,LUXE+ Advanced Sonic Dermaplaning + Peach Fuzz Removal,DERMAFLASH,Skincare,199.0,3.9735,1,1
+P503562,GLOfacial Hydro-Infusion Pore Cleansing + Blue LED Clarifying Tool,BeautyBio,Skincare,199.0,4.1212,1,1
+P504018,The Skin Renewal System,Augustinus Bader,Skincare,185.0,5.0,2,1
+P503823,Strength Cure Shampoo & Conditioner Jumbo Value Set,Pureology,Hair,145.0,3.6667,12,1
+P503824,Hydrate Shampoo & Conditioner Jumbo Value Set,Pureology,Hair,145.0,3.75,9,1
+P455611,Clearly Corrective Dark Spot Solution Duo,Kiehl's Since 1851,Skincare,125.0,3.8478,3,1
+P306941,DermalQuench Hyaluronic Acid Hydration Treatment,Kate Somerville,Skincare,110.0,4.1824,5,1
+P447773,PITERA First Experience Kit,SK-II,Skincare,99.0,3.9146,1,1
+P232915,ExfoliKate Intensive Pore Exfoliating Treatment,Kate Somerville,Skincare,98.0,4.4375,11,1
+P470536,Clarifique Exfoliating & Hydrating Face Essence with Glycolic Acid,Lancôme,Skincare,95.0,4.643,3,1
+P461535,All About Acne Breakout + Blackhead Set,Sunday Riley,Skincare,95.0,4.2,7,1
+P482661,The Essence,Augustinus Bader,Skincare,93.0,4.5,2,1
+P269122,Alpha Beta Extra Strength Daily Peel Pads,Dr. Dennis Gross Skincare,Skincare,92.0,4.5455,3,1
+P377533,Alpha Beta Universal Daily Peel Pads,Dr. Dennis Gross Skincare,Skincare,92.0,4.4899,3,1
+P446908,Advanced Night Repair Treatment Intense Reset Concentrate,Estée Lauder,Skincare,92.0,4.4595,3,1
+P392246,T.L.C. Framboos Glycolic Resurfacing Night Serum,Drunk Elephant,Skincare,90.0,4.3492,2,1
+P481747,Traceless Soft Matte Primer,TOM FORD,Makeup,90.0,4.342,4,1
+P430809,THE ESSENTIALS Sonic Dermaplaning Refill Kit,DERMAFLASH,Skincare,87.0,4.3125,1,1
+P467111,Retinol Acne Clearing Oil,Dermalogica,Skincare,86.0,4.3981,1,1
+P454939,Perfectionist Pro Rapid Brightening Serum with Ferment² + Vitamin C,Estée Lauder,Skincare,86.0,4.1304,2,1
+P505452,Clarifique Pro-Solution Brightening & Dark Spot Reducing Serum,Lancôme,Skincare,85.0,4.4,2,1
+P470227,Vitamin C Triple Exfoliating Facial,Murad,Skincare,85.0,4.7306,4,1
+P457694,Blue Algae Vitamin C Dark Spot Correcting Peel,Algenist,Skincare,85.0,4.213,2,1
+P455622,Even Better Clinical Radical Dark Spot Corrector + Interrupter Serum,CLINIQUE,Skincare,85.0,3.5824,2,1
+P416824,Fresh Pressed Daily Booster with Pure Vitamin C 10%,CLINIQUE,Skincare,85.0,3.9299,1,1
+P503912,Firm + Bright + Glow Vitamin C Lactic Set,Dr. Dennis Gross Skincare,Skincare,85.0,3.4286,7,1
+P429526,Multi-Vitamin Infusion Oil,Murad,Skincare,85.0,4.4272,4,1
+P375853,Facial Treatment Clear Lotion Toner,SK-II,Skincare,80.0,4.0959,1,1
+P410400,U.F.O. Salicylic Acid BHA Acne Treatment Face Oil,Sunday Riley,Skincare,80.0,4.135,2,1
+P415777,T.L.C. Sukari Babyfacial AHA + BHA Mask,Drunk Elephant,Skincare,80.0,4.2909,3,1
+P444970,Replenishing Multi-Acid Peel,Murad,Skincare,79.0,4.6106,2,1
+P474826,Advanced Retinol + Ferulic Texture Renewal Serum,Dr. Dennis Gross Skincare,Skincare,76.0,4.4667,4,1
+P445833,AGE Bright Clearing Serum,Dermalogica,Skincare,75.0,4.3528,11,1
+P447783,Cleanser,Dr. Barbara Sturm,Skincare,75.0,4.2,2,1
+P449541,Pure Vitality Skin Renewing Cream,Kiehl's Since 1851,Skincare,75.0,4.3301,7,1
+P448545,Darker Skin Tones Foam Cleanser,Dr. Barbara Sturm,Skincare,75.0,3.7000000000000006,1,1
+P501591,The Littles Skincare Travel Set,Drunk Elephant,Skincare,74.0,4.4444,4,1
+P467028,Glow In A Wink ExfoliKate Bestsellers Set,Kate Somerville,Skincare,72.0,4.9067,25,1
+P442001,Hyaluronic Facial Cream,Dr. Brandt Skincare,Skincare,72.0,3.814,4,1
+P474809,Blue Algae Vitamin C Skinclarity Brightening Serum,Algenist,Skincare,72.0,4.6087,4,1
+P481341,Alpha Beta Daily Moisturizer,Dr. Dennis Gross Skincare,Skincare,72.0,4.561,5,1
+P474825,Advanced Retinol + Ferulic Triple Correction Eye Serum,Dr. Dennis Gross Skincare,Skincare,71.0,4.4967,4,1
+P481734,Ashita Supreme Purifying Sea Salt Scalp Scrub,shu uemura,Hair,69.0,4.6,8,1
+P447592,Alpha Beta Pore Perfecting & Refining Serum,Dr. Dennis Gross Skincare,Skincare,68.0,4.4672,5,1
+P434443,Densifique Thickening Mask for Thinning Hair,Kérastase,Hair,68.0,4.0909,6,1
+P503693,Bouncy Brightfacial Brightening Mask with 10% Azelaic Acid + 1% Salicylic Acid,Drunk Elephant,Skincare,68.0,4.4859,1,1
+P441844,Blond Absolu Anti-Brass Purple Hair Mask,Kérastase,Hair,68.0,4.1136,3,1
+P470243,PRO Strength Microdermabrasion Blackhead Eliminator,Peter Thomas Roth,Skincare,68.0,4.4936,2,1
+P479701,EradiKate Acne Mark Fading Gel with Salicylic Acid,Kate Somerville,Skincare,68.0,4.7011,2,1
+P504616,Symbiose Deeply Hydrating Hair Mask for Damaged Hair,Kérastase,Hair,68.0,4.7105,9,1
+P423688,Daily Microfoliant Exfoliator,Dermalogica,Skincare,65.0,4.696,2,1
+P422022,Clearly Corrective Dark Spot Correcting Serum,Kiehl's Since 1851,Skincare,65.0,3.8478,3,1
+P463463,Vitamin E Nourishing Hand Treatment Cream,Jo Malone London,Bath & Body,65.0,5.0,7,1
+P500002,Brighten. Tighten. Hydrate. 3-Piece Set,JLo Beauty,Skincare,64.0,4.2782,6,1
+P385253,Dr. Andrew Weil For Origins Mega-Bright SPF 30 Skin Tone Correcting Oil-Free Moisturizer,Origins,Skincare,63.0,4.0966,15,1
+P434430,Resistance Strengthening Hair Mask for Damaged Hair,Kérastase,Hair,63.0,4.0891,9,1
+P469217,Yūbi Blonde Nourishing Conditioner for Blonde Hair,shu uemura,Hair,62.0,4.5662,6,1
+P472472,Ferulic Brew Facial Treatment Essence with Lactic Acid,Kiehl's Since 1851,Skincare,60.0,4.5603,7,1
+P457864,Vital Skin-Strengthening Hyaluronic Acid Super Serum,Kiehl's Since 1851,Skincare,60.0,4.2194,9,1
+P466877,Alpha Beta Exfoliating Body Treatment Peel,Dr. Dennis Gross Skincare,Bath & Body,60.0,4.4054,2,1
+P480306,Gucci Matte Primer,Gucci,Makeup,60.0,4.4026,4,1
+P483664,Midnight  Recovery Omega-Rich Cloud Cream,Kiehl's Since 1851,Skincare,60.0,4.5233,9,1
+P397310,PoreDermabrasion Pore Perfecting Exfoliator,Dr. Brandt Skincare,Skincare,59.0,4.2437,8,1
+P502665,Gentle Radiance Clarifying Shampoo for All Scalp & Hair Types,shu uemura,Hair,59.0,4.4948,5,1
+P467124,That Blockbuster Cream with Hyaluronic Acid,JLo Beauty,Skincare,59.0,4.1612,3,1
+P462390,PRO Strength 10% PHA Exfoliating Clarifying Liquid,Peter Thomas Roth,Skincare,58.0,4.3836,3,1
+P476428,Brightening Dark Spot Vitamin C Serum,Hyper Skin,Skincare,58.0,4.5664,2,1
+P449768,Relaxing Scrub: Soothing Scrub for Dry Scalp,Kérastase,Hair,56.0,4.1831,5,1
+P449767,Energizing Scrub: Purifying Scrub for Oily Scalp,Kérastase,Hair,56.0,4.5328,5,1
+P456992,Superdefense SPF 25 Fatigue + 1st Signs of Age Multi-Correcting Cream,CLINIQUE,Skincare,56.0,3.882400000000001,2,1
+P467112,Daily Microfoliant Exfoliator Refill Pack,Dermalogica,Skincare,56.0,4.8824,2,1
+P481355,ExfoliKate  Resurfacing Body Scrub,Kate Somerville,Bath & Body,56.0,4.672,7,1
+P442742,Peptide 21 Amino Acid Exfoliating Peel Pads,Peter Thomas Roth,Skincare,55.0,4.6453,4,1
+P282920,Pore Refining Solutions Correcting Serum,CLINIQUE,Skincare,55.0,3.8603,3,1
+P474337,Specifique Divalent Purifying Clay Shampoo for Oily Hair,Kérastase,Hair,54.0,4.3553,7,1
+P469140,#OribeObsessed Hair Set,Oribe,Hair,54.0,3.5152,14,1
+P302900,Turnaround Revitalizing Serum,CLINIQUE,Skincare,53.0,4.3261,2,1
+P469097,Gold Lust Repair & Restore Shampoo,Oribe,Hair,53.0,4.2889,6,1
+P469218,Yūbi Blonde Nourishing Shampoo for Blonde Hair,shu uemura,Hair,52.0,4.6242,6,1
+P440072,Noni Glow Overnight Plumping Hydration Mask,KORA Organics,Skincare,52.0,3.7283,6,1
+P474938,Vinopure Natural Salicylic Acid Pore Minimizing Serum,Caudalie,Skincare,52.0,4.3375,11,1
+P434361,High-Potency Night-A-Mins Oil-Free Resurfacing Cream with Fruit Derived AHAs,Origins,Skincare,52.0,4.3358,7,1
+P434360,High-Potency Night-a-Mins Resurfacing Cream with Fruit-Derived AHAs,Origins,Skincare,52.0,4.3159,8,1
+P434207,Ultimate Reset Shampoo for Very Damaged Hair,shu uemura,Hair,52.0,4.5045,6,1
+P433627,Turmeric BHA Pore & Brightening Treatment Mask,KORA Organics,Skincare,52.0,4.1626,8,1
+P414029,Urban Moisture Deep Hydration Shampoo for Dry Hair,shu uemura,Hair,52.0,4.4141,4,1
+P403934,Silk Bloom Shampoo for Damaged Hair,shu uemura,Hair,52.0,4.2778,3,1
+P449373,Muroto Volume Lightweight Care Shampoo For Fine Hair,shu uemura,Hair,52.0,4.35,5,1
+P403936,Color Lustre Sulfate-Free Shampoo for Color-Treated Hair,shu uemura,Hair,52.0,4.4542,4,1
+P466879,Chronologiste Detoxifying Charcoal Pre-Shampoo,Kérastase,Hair,52.0,4.5,9,1
+P456414,Greek Yoghurt Probiotic Superdose Face Mask,KORRES,Skincare,52.0,4.5049,2,1
+P469216,Yūbi Blonde Anti-Brass Purple Shampoo for Blonde Hair,shu uemura,Hair,52.0,4.6011,6,1
+P472050,Cold Plunge Pore Remedy Moisturizer with BHA/LHA,OLEHENRIKSEN,Skincare,51.0,4.3959,2,1

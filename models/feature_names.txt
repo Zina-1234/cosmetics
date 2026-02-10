@@ -1,0 +1,13 @@
+price_usd
+log_price
+price_per_restricted
+restricted_ingredient_count
+cmr_count
+has_restricted_ingredient
+has_cmr
+risk_density
+cmr_ratio
+product_type_encoded
+brand_encoded
+price_x_restricted
+price_x_type

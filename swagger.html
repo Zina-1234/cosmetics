@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>API Cosmetics Regulatory — Documentation</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist@5/swagger-ui.css">
+</head>
+<body>
+<div id="swagger-ui"></div>
+
+<script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js"></script>
+<script>
+// ─── Spécification OpenAPI inline ────────────────────────────
+const spec = {
+    openapi: "3.0.3",
+    info: {
+        title: "Cosmetics Regulatory Analysis API",
+        version: "1.0.0",
+        description: "API pour exposer les données du projet d'analyse réglementaire des ingrédients cosmétiques. Toutes les routes /api/* nécessitent un Bearer token obtenu via POST /auth/token.",
+        contact: { name: "Projet RNCP", email: "zina@example.com" }
+    },
+    servers: [{ url: "http://127.0.0.1:5000", description: "Serveur local" }],
+
+    components: {
+        securitySchemes: {
+            BearerAuth: {
+                type: "http",
+                scheme: "bearer",
+                description: "Token obtenu via POST /auth/token"
+            }
+        },
+        schemas: {
+            TokenRequest: {
+                type: "object",
+                required: ["username", "password"],
+                properties: {
+                    username: { type: "string", example: "admin" },
+                    password: { type: "string", example: "admin123" }
+                }
+            },
+            TokenResponse: {
+                type: "object",
+                properties: {
+                    token:      { type: "string", example: "abc123..." },
+                    expires_in: { type: "integer", example: 3600 },
+                    expires_at: { type: "string", format: "date-time" }
+                }
+            },
+            SephoraProduct: {
+                type: "object",
+                properties: {
+                    product_id: { type: "string", example: "P473671" },
+                    product_name: { type: "string" },
+                    brand_name: { type: "string" },
+                    product_type: { type: "string" },
+                    price_usd: { type: "number" },
+                    rating: { type: "number" },
+                    restricted_ingredient_count: { type: "integer" },
+                    cmr_count: { type: "integer" },
+                    has_restricted_ingredient: { type: "integer", enum: [0, 1] },
+                    has_cmr: { type: "integer", enum: [0, 1] }
+                }
+            },
+            SkincareProduct: {
+                type: "object",
+                properties: {
+                    brand: { type: "string" },
+                    product_name: { type: "string" },
+                    product_type: { type: "string" },
+                    price: { type: "number" },
+                    rating: { type: "number" },
+                    restricted_ingredient_count: { type: "integer" },
+                    cmr_count: { type: "integer" },
+                    has_restricted_ingredient: { type: "integer", enum: [0, 1] },
+                    has_cmr: { type: "integer", enum: [0, 1] }
+                }
+            },
+            BrandSummary: {
+                type: "object",
+                properties: {
+                    brand_name: { type: "string" },
+                    total_produits: { type: "integer" },
+                    nb_produits_restreints: { type: "integer" },
+                    nb_produits_cmr: { type: "integer" },
+                    prix_moyen: { type: "number" }
+                }
+            },
+            TypeSummary: {
+                type: "object",
+                properties: {
+                    product_type: { type: "string" },
+                    total_produits: { type: "integer" },
+                    moy_ingredients_restreints: { type: "number" },
+                    nb_produits_restreints: { type: "integer" },
+                    nb_produits_cmr: { type: "integer" },
+                    pct_restreints: { type: "number" },
+                    pct_cmr: { type: "number" }
+                }
+            },
+            ComparaisonRow: {
+                type: "object",
+                properties: {
+                    product_type: { type: "string" },
+                    total_sephora: { type: "integer" },
+                    pct_restreints_sephora: { type: "number" },
+                    prix_moyen_sephora: { type: "number" },
+                    total_skincare: { type: "integer" },
+                    pct_restreints_skincare: { type: "number" },
+                    prix_moyen_skincare: { type: "number" }
+                }
+            },
+            ErrorResponse: {
+                type: "object",
+                properties: { error: { type: "string" } }
+            }
+        }
+    },
+
+    paths: {
+        "/auth/token": {
+            post: {
+                tags: ["Authentification"],
+                summary: "Obtenir un Bearer token",
+                description: "Envoyer les identifiants (username/password) pour recevoir un token valable 1 heure.",
+                requestBody: {
+                    required: true,
+                    content: { "application/json": { schema: { "$ref": "#/components/schemas/TokenRequest" } } }
+                },
+                responses: {
+                    "200": { description: "Token généré", content: { "application/json": { schema: { "$ref": "#/components/schemas/TokenResponse" } } } },
+                    "400": { description: "Body manquant", content: { "application/json": { schema: { "$ref": "#/components/schemas/ErrorResponse" } } } },
+                    "401": { description: "Identifiants incorrects", content: { "application/json": { schema: { "$ref": "#/components/schemas/ErrorResponse" } } } }
+                }
+            }
+        },
+
+        "/api/sephora/products": {
+            get: {
+                tags: ["Sephora"],
+                summary: "Liste des produits Sephora",
+                security: [{ BearerAuth: [] }],
+                parameters: [
+                    { name: "limit",  in: "query", schema: { type: "integer", default: 50 }, description: "Nombre max de résultats" },
+                    { name: "offset", in: "query", schema: { type: "integer", default: 0 },  description: "Décalage (pagination)" },
+                    { name: "type",   in: "query", schema: { type: "string" },                description: "Filtrer par product_type" },
+                    { name: "brand",  in: "query", schema: { type: "string" },                description: "Filtrer par marque (partiel)" }
+                ],
+                responses: {
+                    "200": { description: "Liste de produits", content: { "application/json": { schema: { type: "object", properties: { data: { type: "array", items: { "$ref": "#/components/schemas/SephoraProduct" } }, count: { type: "integer" } } } } } },
+                    "401": { description: "Non autorisé", content: { "application/json": { schema: { "$ref": "#/components/schemas/ErrorResponse" } } } }
+                }
+            }
+        },
+
+        "/api/sephora/products/{product_id}": {
+            get: {
+                tags: ["Sephora"],
+                summary: "Un produit Sephora par ID",
+                security: [{ BearerAuth: [] }],
+                parameters: [{ name: "product_id", in: "path", required: true, schema: { type: "string" }, example: "P473671" }],
+                responses: {
+                    "200": { description: "Produit trouvé", content: { "application/json": { schema: { type: "object", properties: { data: { "$ref": "#/components/schemas/SephoraProduct" } } } } } },
+                    "404": { description: "Produit introuvable", content: { "application/json": { schema: { "$ref": "#/components/schemas/ErrorResponse" } } } }
+                }
+            }
+        },
+
+        "/api/sephora/brands": {
+            get: {
+                tags: ["Sephora"],
+                summary: "Top marques par risque réglementaire",
+                security: [{ BearerAuth: [] }],
+                parameters: [{ name: "limit", in: "query", schema: { type: "integer", default: 10 }, description: "Nombre de marques" }],
+                responses: {
+                    "200": { description: "Liste de marques", content: { "application/json": { schema: { type: "object", properties: { data: { type: "array", items: { "$ref": "#/components/schemas/BrandSummary" } } } } } } }
+                }
+            }
+        },
+
+        "/api/sephora/by-type": {
+            get: {
+                tags: ["Sephora"],
+                summary: "Agrégation par type de produit",
+                security: [{ BearerAuth: [] }],
+                responses: {
+                    "200": { description: "Résumé par type", content: { "application/json": { schema: { type: "object", properties: { data: { type: "array", items: { "$ref": "#/components/schemas/TypeSummary" } } } } } } }
+                }
+            }
+        },
+
+        "/api/skincare/products": {
+            get: {
+                tags: ["Skincare"],
+                summary: "Liste des produits Skincare",
+                security: [{ BearerAuth: [] }],
+                parameters: [
+                    { name: "limit",  in: "query", schema: { type: "integer", default: 50 } },
+                    { name: "offset", in: "query", schema: { type: "integer", default: 0 } },
+                    { name: "type",   in: "query", schema: { type: "string" } },
+                    { name: "brand",  in: "query", schema: { type: "string" } }
+                ],
+                responses: {
+                    "200": { description: "Liste de produits", content: { "application/json": { schema: { type: "object", properties: { data: { type: "array", items: { "$ref": "#/components/schemas/SkincareProduct" } } } } } } }
+                }
+            }
+        },
+
+        "/api/skincare/cmr": {
+            get: {
+                tags: ["Skincare"],
+                summary: "Produits Skincare avec ingrédients CMR",
+                security: [{ BearerAuth: [] }],
+                responses: {
+                    "200": { description: "Produits CMR", content: { "application/json": { schema: { type: "object", properties: { data: { type: "array", items: { "$ref": "#/components/schemas/SkincareProduct" } } } } } } }
+                }
+            }
+        },
+
+        "/api/comparaison": {
+            get: {
+                tags: ["Comparaison"],
+                summary: "Comparaison Sephora vs Skincare par type",
+                security: [{ BearerAuth: [] }],
+                responses: {
+                    "200": { description: "Comparaison", content: { "application/json": { schema: { type: "object", properties: { data: { type: "array", items: { "$ref": "#/components/schemas/ComparaisonRow" } } } } } } }
+                }
+            }
+        }
+    }
+};
+
+// ─── Initialiser Swagger UI ──────────────────────────────────
+SwaggerUIBundle({
+    spec: spec,
+    dom_id: '#swagger-ui',
+    presets: [SwaggerUIBundle.presets.apis, SwaggerUIBundle.SwaggerUIStandalonePreset],
+    layout: "BaseLayout",
+    requestInterceptor: (req) => {
+        // Permet de copier-coller le token dans l'interface
+        return req;
+    }
+});
+</script>
+</body>
+</html>

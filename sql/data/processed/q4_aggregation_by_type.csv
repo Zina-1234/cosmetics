@@ -1,0 +1,8 @@
+product_type,total_products,avg_restricted_ingredients,avg_cmr,nb_restricted_products,nb_cmr_products,pct_restricted,pct_cmr,max_restricted_ingredients
+Fragrance,1115,9.28,0.0,1054.0,0.0,94.5,0.0,92
+Hair,1270,3.8,0.1,1064.0,119.0,83.8,9.4,25
+Men,59,2.85,0.14,48.0,8.0,81.4,13.6,19
+Bath & Body,371,3.44,0.03,282.0,12.0,76.0,3.2,12
+Mini Size,266,2.89,0.02,200.0,5.0,75.2,1.9,43
+Skincare,2286,2.52,0.11,1649.0,233.0,72.1,10.2,40
+Makeup,2013,1.87,0.01,1302.0,16.0,64.7,0.8,94
